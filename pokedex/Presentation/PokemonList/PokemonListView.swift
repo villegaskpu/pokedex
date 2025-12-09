@@ -7,7 +7,7 @@
 
 import SwiftUI
 import Combine
-
+//probar plantilla
 struct PokemonListView: View {
     @StateObject var viewModel: PokemonListViewModel
     
