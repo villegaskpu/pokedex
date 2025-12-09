@@ -11,7 +11,7 @@ class PokemonMapper {
         let imageURL = dto.sprites.other?.officialArtwork?.frontDefault
             ?? dto.sprites.frontDefault
             ?? ""
-        
+        //un cambio
         return Pokemon(
             id: dto.id,
             name: dto.name.capitalized,
