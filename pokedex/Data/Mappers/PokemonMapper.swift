@@ -7,6 +7,8 @@
 
 
 class PokemonMapper {
+    //hola
+    
     static func toDomain(dto: PokemonDTO) -> Pokemon {
         let imageURL = dto.sprites.other?.officialArtwork?.frontDefault
             ?? dto.sprites.frontDefault
